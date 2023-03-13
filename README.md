@@ -1,15 +1,14 @@
 This is a simple node.js base64 encoder/decoder
-to use it make shure that you have node.js installd if not you can install it here https://nodejs.org/en/ then unzip ehter download the release or the code
-once its downloded unzip the files and then start ether the encoder or decoder .bat file
+to use it make shure that you have node.js installd if not you can install it here https://nodejs.org/en/ then download the latest release and unzip it
 
-These are the default locations
-encoder: decoder\encoder
-decoder: decoder\decoder
+To encode files start the file named file_encoder.bat and the path, name and extention of the file you want to encode (ex.\decoder\decoder.bat)
+then imput the output folder with name and extention of the output file (ex.\output\output.bat)
 
-the code only works for txt files but you can try to use a other file by changer the impour/output location in this code
+To decode files start the file named file_decoder.bat and imput the path, name and extention of the file you want to decode (ex.\output\output.bat)
+then imput the output folder with name and extention of the output file (ex.\output\decoder.bat)
 
-```
-const inputFile = './encoder/input.txt';
-const outputFile = './encoder/output.txt';
-```
-(do the same thing for the decoder)
+To encode text start the file named text_encoder.bat and imput the text you want to encode
+then imput the output folder with name and extention of the output file (ex.\output\output.txt)
+
+To decode the text start the file text_decoder.bat and imput the text you want to decode
+then imput the output folder with name and extention of the output file (ex.\output\output.txt)
