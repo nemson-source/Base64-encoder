@@ -1,1 +1,0 @@
-node.exe encoder.js
