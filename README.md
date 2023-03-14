@@ -1,3 +1,4 @@
+# open-base64-encoder
 This is a simple node.js base64 encoder/decoder
 to use it make shure that you have node.js installd if not you can install it here https://nodejs.org/en/ then download the latest release and unzip it
 
