@@ -1,1 +1,0 @@
-node.exe text_encoder.js
