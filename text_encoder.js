@@ -15,10 +15,8 @@ readline.question('', (InputText) => {
 });
 
 const incode = (InputText, OutputFolder) => {
-
     const bytes = new TextEncoder().encode(InputText);
     const base64String = base64.fromByteArray(bytes);
-
     fs.writeFile(OutputFolder, base64String, (err) => {
         if (err) throw err;
         console.log(`Encoded string written to ${OutputFolder}`);
