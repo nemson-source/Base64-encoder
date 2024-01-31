@@ -14,15 +14,11 @@ readline.question('', (InputText) => {
     });
 });
 
-
 const incode = (InputText, OutputFolder) => {
-
     const padding = '='.repeat((4 - InputText.length % 4) % 4);
     const paddedBase64String = InputText + padding;
-
     const bytes = base64.toByteArray(paddedBase64String);
     const decodedString = new TextDecoder().decode(bytes);
-
     fs.writeFile(OutputFolder, decodedString, (err) => {
         if (err) throw err;
         console.log(`Decoded string written to ${OutputFolder}`);
